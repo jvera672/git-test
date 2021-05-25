@@ -1,0 +1,107 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    margin: 0;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.ContenedorPerfil{
+    margin: 15px;
+    margin-top: 125px;
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+.ContenedorPerfil img{
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(51, 105, 255);
+    border-width: 3px;
+    box-shadow: 0 0 50px rgb(51, 105, 255);
+}
+.ContenedorPerfil h1{
+    font-size: 60px;
+    text-shadow: 1px 1px 3px rgb(168, 168, 168);
+}
+.ContenedorPerfil p{
+    font-size: 30px;
+}
+.ContenidoPrincipal{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContenedorProyecto{
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    width: 70%;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+}
+.ContenedorImagen{
+    height: 100%;
+}
+.ContenedorImagen img{
+    height: 100%;
+}
+.ContenedorDetalle{
+    padding: 20px;
+}
+.ContenedorDetalle h2{
+    font-size: 60px;
+}
+.ContenedorDetalle p{
+    font-size: 20px;
+}
+.ContenedorImagenCustom{
+    height: 100%;
+    width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+.uno{
+    background-image: url("Madoromi.png");
+}
+.dos{
+    background-image: url("Bunny.png");
+}
+.tres{
+    background-image: url("Buo.png");
+}
